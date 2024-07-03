@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('Images/abstract-blur-restaurant-coffee-shop-cafe.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+/* De rest van je CSS-regels blijft hetzelfde */
+#pizza-container {
+    text-align: center;
+    position: relative;
+}
+
+#pizza {
+    width: 300px;
+    /* Aanpassen naar de gewenste grootte van de afbeelding */
+    height: auto;
+}
+
+.topping-btn,
+.crust-btn {
+    margin: 10px;
+    padding: 8px 16px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.topping-btn:hover,
+.crust-btn:hover {
+    background-color: #45a049;
+}
+
+#question {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+#finishBtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+#finishBtn:hover {
+    background-color: #45a049;
+}
+#finishBtn2 {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+#finishBtn2:hover {
+    background-color: #45a049;
+}
+
+/* <!-- Html/css code via chat gpt overgenomen!!, dit omdat ik het vak internet standaarden niet heb gehaald
+en liever dan mijn tijd gebruik om het javascript deel beter te begrijpen en mee te spelen --> */
